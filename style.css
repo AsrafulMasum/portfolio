@@ -137,7 +137,7 @@ nav>ul>li>a{
 
 .header_body .pic_con{
   width: 50vw;
-  height: 80%;
+  height: 100%;
 }
 
 .header_body .pic_con img{
@@ -149,6 +149,7 @@ nav>ul>li>a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 101vw;
   }
 
   .hbtn{
@@ -173,6 +174,7 @@ nav>ul>li>a{
 
   .header_body{
     padding: 9.5rem 1rem;
+    width: 95vw;
     height: auto;
     align-items: flex-start;
     justify-content: center;
@@ -188,7 +190,7 @@ nav>ul>li>a{
 
   .header_content>p{
     margin-top: 1.5rem;
-    width: 100vw;
+    width: 95vw;
   }
 }
 
@@ -203,5 +205,10 @@ nav>ul>li>a{
 
   .header_body{
     padding: 1rem;
+    align-items: end;
+  }
+
+  .header_body .pic_con{
+    height: 50%;
   }
 }
