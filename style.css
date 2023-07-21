@@ -7,6 +7,7 @@
 
 body{
   height: 10000px;
+  overflow-x: hidden;
 }
 
 header{
@@ -70,9 +71,8 @@ nav>ul>li>a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0 0 9rem;
-  width: 100vw;
-  overflow: hidden;
+  padding: 0 0 0 5rem;
+  width: 94vw;
   background-color: #FFF8F3;
   background-image: url(images/header_bg.png) ,url(images/developer.png);
   background-repeat: no-repeat;
@@ -205,7 +205,7 @@ nav>ul>li>a{
 
   .header_body{
     padding: 1rem;
-    align-items: end;
+    align-items: center;
   }
 
   .header_body .pic_con{
